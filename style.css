@@ -17,6 +17,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--poppins);
+}
+
+h1 {
+  font-size: 6rem;  
+}
+
+h2 {
+    font-size: 5rem;  
+    
+}
+
+h3 {
+    font-size: 4rem;  
+    
+}
+
+h4 {
+    font-size: 3rem;  
+    
+}
+
+h5 {
+    font-size: 2.5rem;  
+
+}
+
+h6 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.8rem;
 }
 
 body {
@@ -26,22 +59,123 @@ body {
 }
 
 
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#logo-header {
+    width: 12rem;
+    height: 6rem;
+    background-image: url('./Images/exit_logo.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
+#exit-header {
+    width: max-content;
+}
 
+#exit-header h5 {
+    font-weight: 400;
+    width: 100%;
+    letter-spacing: .5rem;
+    margin-top: -1rem;
+}
 
+#sheila-header h5 {
+    font-weight: 300;
+}
 
+#vertical-line {
+    height: 5rem;
+    width: .2rem;
+    background-color: black;
+    margin: 0 1rem;
+}
 
+#section-one {
+    width: 100%;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
 
+#office-image {
+    width: 85%;
+    height: 25rem;
+    background-image: url('./Images/petr-magera-LYDP_iYgbW4-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    box-shadow: .4rem .4rem 1rem 0 #111a;
+}
 
+#section-two {
+    display: flex;
+    justify-content: center;
+}
 
+#sheila-image {
+    margin-top: -7rem;
+    /* margin-bottom: -7rem; */
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10rem;
+    background-image: url('./Images/sheila.jpg');
+    background-size: cover;
+    box-shadow: .4rem .4rem 1rem 0 #111a;
 
+}
 
+#break {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
 
+#horizontal-line {
+    height: .2rem;
+    width: 66%;
+    background-color: #111;
+}
 
+#section-three {
+    width: 100%;
+    padding: 0 3rem;
+}
 
+#section-three p {
+    text-align: justify;
+}
 
+footer {
+    width: 100%;
+    height: 40%;
+    background-color: var(--primary);
+}
 
+#map {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -32rem;
+    /* left: 0; */
+    border: 2px solid red;
+}
+
+.shown {
+    transform: scale(1);
+    
+}
+
+.hidden {
+    transform: scale(0);
+}
 
 
 
