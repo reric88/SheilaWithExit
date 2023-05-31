@@ -237,6 +237,10 @@ footer a {
     align-items: center;
 }
 
+#footer-logo img {
+    margin-top: 2rem;
+}
+
 #credit {
     margin-top: 1rem;
     font-size: 2rem;
